@@ -10,6 +10,20 @@
  * Aurguments, return value
  */
 #include <stdio.h>
+// create a function to sqrt a number
+
+// aurguments passed and also return value passed
+
+// defination && declartion of the function
+int square(int num){
+    int y;
+    y = num * num;
+    return y;
+}
+
 int main(){
-    printf("I;m learning functions");
+    int x;
+    printf("enter the value => ");
+    scanf("%d", &x);
+    printf("output is => %d", square(x));
 }
